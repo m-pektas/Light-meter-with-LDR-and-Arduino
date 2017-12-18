@@ -7,7 +7,7 @@
     Good work..
 */
 
-int TempLevel (int);                                  //Fonksiyon prototype
+int TempLevel (int);                                  //Function prototype
 void Just_Low_Led_ON();
 void Just_Mid_Led_ON();
 void Just_High_Led_ON();
