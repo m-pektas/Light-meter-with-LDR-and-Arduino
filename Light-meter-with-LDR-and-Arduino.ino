@@ -1,13 +1,5 @@
-/*  
-    Hello there.
-    In this project I read the value from the LDR light sensor and printed 
-    it on the Celcius screen and set the levels according to the standards
-    I set up to turn on the LEDs that express the levels.
-    I hope that will be useful.
-    Good work..
-*/
 
-int TempLevel (int);                                  //Function prototype
+int TempLevel (int);                                  //Function prototypes
 void Just_Low_Led_ON();
 void Just_Mid_Led_ON();
 void Just_High_Led_ON();
@@ -20,6 +12,7 @@ int LIGHT_MID_LED_PIN = 6;
 int LIGHT_LOW_LED_PIN = 5;
 
 void setup() {
+  
   Serial.begin(9600);                                 
 
   pinMode(LIGHT_HIGH_LED_PIN,OUTPUT);                 //Leds set outpin
@@ -31,6 +24,7 @@ void setup() {
 void loop() {
 
   int lightVal = analogRead(READ_LIGHT_PIN);          //Read data from LDR pin
+  
   Serial.print("Light : ");                             
   Serial.println(lightVal);                           //Print data
 
