@@ -6,3 +6,7 @@
     I set up to turn on the LEDs that express the levels.
     I hope that will be useful.
     Good work..
+    
+    
+    
+     My article on this topic in my websites: https://muhammedpektas.wordpress.com/2017/12/20/arduino-ve-ldr-ile-isik-seviyesi-olcumu/
